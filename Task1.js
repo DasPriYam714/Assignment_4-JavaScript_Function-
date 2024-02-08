@@ -1,5 +1,4 @@
 function calculateMoney(amountTickets) {
-    // Check the input pos or neg
     if (typeof amountTickets !== 'number' || amountTickets <= 0 || !Number.isInteger(amountTickets)) {
         return " Please provide a positive number as input.";
     }

@@ -1,9 +1,8 @@
-function checkInputName(inputName) {
+function checkName(inputName) {
 
     if (typeof inputName !== 'string') {
         return "invalid input name";
     }
-    
     
     var lastChar = inputName[inputName.length - 1];
     var vowelCheck = ['a', 'y', 'i', 'e', 'o', 'u', 'w'];
@@ -15,7 +14,7 @@ function checkInputName(inputName) {
 }
 
 // Example usage:
-console.log(checkInputName("Salman")); // Output: Bad inputName
-console.log(checkInputName("Jafor")); // Output: Bad inputName
-console.log(checkInputName("Tonoy")); // Output: Good inputName
-console.log(checkInputName(123)); // Output: invalid
+console.log(checkName("Salman")); // Output: Bad inputName
+console.log(checkName("Jafor")); // Output: Bad inputName
+console.log(checkName("Tonoy")); // Output: Good inputName
+console.log(checkName(123)); // Output: invalid

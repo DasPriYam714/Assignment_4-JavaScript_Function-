@@ -6,7 +6,6 @@ function password(userDetails) {
         return "Provided details is invalid";
     }
     
-    
     var providedPassword = userDetails.siteName + "#" + userDetails.name + "@" + userDetails.birthYear;
     
     return providedPassword;
